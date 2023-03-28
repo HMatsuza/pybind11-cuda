@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.6)
 find_package(CUDA REQUIRED)
-find_package(PythonInterp 3.6 REQUIRED)
-find_package(PythonLibs 3.6 REQUIRED)
+
+find_package(PythonInterp 3.7 REQUIRED)
+find_package(PythonLibs 3.7 REQUIRED)
 
 include_directories(
     ${PYTHON_INCLUDE_DIRS}
@@ -22,3 +23,4 @@ target_link_libraries(gpu_library
   cudart)
 
 set_target_properties(gpu_library PROPERTIES PREFIX "")
+

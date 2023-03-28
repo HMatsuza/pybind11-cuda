@@ -12,7 +12,7 @@ Originally based on https://github.com/torstem/demo-cuda-pybind11
 
 Cuda installed in /usr/local/cuda 
 
-Python 3.6 or greater 
+Python 3.7 or greater 
 
 Cmake 3.6 or greater 
 
