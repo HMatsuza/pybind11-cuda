@@ -19,6 +19,9 @@ Cmake 3.6 or greater
 # To build 
 
 ```source install.bash``` 
+If you want to use specific Python3 binary, modify line 4 in install.bash:
+```cmake .. -DPYTHON_EXECUTABLE=/path/to/executable```
+
 
 Test it with 
 ```python3 test_mul.py``` 
